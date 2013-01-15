@@ -1,0 +1,87 @@
+/* CSS Document */
+.fontBig{
+	text-align:center;
+	color:#FFFFFF;
+	font-size:100px;
+	display:block;
+	margin:20px auto;
+}
+.fontHead{
+	text-align:center;
+	font-size:70px;
+	display:block;
+	margin:20px auto;
+}
+.fontContent{
+	font-size:50px;
+	display:block;
+	margin:20px 0px 20px 100px;
+}
+.game{
+	display:block;
+	padding:10px;
+	border:#999999 solid 3px;
+	width:400px;
+	margin:20px 0px 20px 100px;
+	cursor:pointer;
+}
+.game:hover{
+	color:#F00;
+	font-size:60px;
+	border:#F00 solid 3px;
+}
+body{
+	background:url(../images/200822394356312_2.jpg);
+}
+#content{
+	overflow:hidden;
+	padding:0px;
+	background:#06F;
+	width:auto;
+	height:660px;
+	margin:auto;
+}
+#canvas{
+	text-align:center;
+	display:none;
+}
+#canvas input{
+	margin:auto;
+	display:block;
+}
+#canvas iframe{
+	width:100%;
+	height:640px;
+}
+.start.frame{
+	padding:0px;
+	display:block;
+	background:url(../images/xiaoyu.jpg);
+	text-align:center;
+	color:#fff;
+}
+.end.frame{
+	background:url(../images/m_1318506322392.jpg);
+}
+.frame{
+	margin:0px;
+	border:#FFFFFF solid 1px;
+	background:url(../images/200910321242159016.jpg);
+	width:auto;
+	height:660px;
+	color:#000;
+	font-size:50px;
+	font-weight:900;
+}
+.frame p{
+	margin:50px;
+}
+#menu{
+	position:absolute;
+	top:620px;
+	left:1130px;
+	text-align:center;
+}
+#menu input{
+	
+}
